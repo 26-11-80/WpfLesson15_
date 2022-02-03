@@ -1,0 +1,201 @@
+﻿<Window x:Class="WpfLesson15_.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfLesson15_"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="800" Width="800">
+    <Grid>
+        <FlowDocumentScrollViewer>
+         <FlowDocument>
+                <Paragraph>
+                   
+                    <Bold> Манул Felis Manul</Bold>
+                    <Floater>
+                        <BlockUIContainer>
+                            <Image Source="Image/1.jpg"/>
+                        </BlockUIContainer>
+                    </Floater>
+                    <Hyperlink NavigateUri="https://redbookrf.ru/manul-felis-manul"> Красная книга России</Hyperlink>
+
+                </Paragraph>
+            <Paragraph>
+                  
+                    Яркий представитель семейства кошачьих – манул, имеет еще второе менее популярное название – палласов кот. 
+                    Официальное название животного
+                    <Run Foreground="Red">Otocolobus manul</Run> . Согласно исследованиям, прародителем вида была бенгальская кошка. 
+                    Популяции находятся под угрозой исчезновения из-за охоты на взрослых особей.
+                    Главной причиной исчезновения большого количества взрослых популяций названа охота, целенаправленное истребление вида. 
+                    Тенденция плачевна в последнее десятилетие, так как в  южной части регионов, где обычно водится степной вид, взрослые особи почти отсутствуют –
+                    встретить их практически невозможно.
+
+                    Вне охраняемых территорий животное манул – редкое. В отдельных частях страны статус близок к «исчезнувшему». Основной причиной исчезновения 
+                    вида признана браконьерская деятельность. Места, где обитают взрослые виды, почти не осваиваются человеком.
+
+                    Еще одна причина – охота на других животных, а вот
+                    <Run Foreground="Red">Otocolobus manul</Run> часто попадает в их капканы. Поэтому человек является еще одним негативным 
+                    фактором, который влияет на то, как живет степной кот.
+                    <Floater Width="350">
+                        <BlockUIContainer>
+                            <Image Source="Image/2.jpg"/>
+                        </BlockUIContainer>
+                    </Floater>
+
+
+                </Paragraph>
+             
+              
+                <Paragraph>
+                    
+                    <Italic> История Вида</Italic>
+                    
+                    
+                </Paragraph>
+                <Paragraph>
+                    Кот манул распространен в Азии, часть популяций проживает в Закавказье и Монголии. В зависимости от местности меняется окрас, 
+                    даже повадки взрослых особей. Самый распространенный, но не менее уязвимый вид, который обитает на территории Кавказа и России – Otocolobus manul ferruginea.
+                    На территории России
+                    <Run Foreground="Red"> Otocolobus manul </Run>    распространен только в 3 регионах:
+                 </Paragraph>
+                <List MarkerStyle="Box">
+                    <ListItem>
+                        <Paragraph>
+                            восточный;
+
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            забайкальский;
+;
+
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                           тувино-алтайский;
+
+                        </Paragraph>
+                    </ListItem>
+                </List>
+                <Paragraph>
+                    <Italic>
+                          Внешние Характеристики
+                        <Run Foreground="Red">Otocolobus manul</Run> :</Italic>
+
+                </Paragraph>
+              
+                <Table>
+                    <Table.Columns>
+                        <TableColumn/>
+                        <TableColumn/>
+                        <TableColumn/>
+                    </Table.Columns>
+                    <TableRowGroup>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    <Underline> Вес  </Underline>
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    <Underline>Размеры тела</Underline> 
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    <Underline>Длина хвоста</Underline> 
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    не более 5 кг
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    от 52 до 65 см
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    от 25 до 31 см
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                    </TableRowGroup>
+                </Table>
+                <Paragraph>
+                    Голова небольшая, густо покрыта шерстью. Уши немассивные, но торчащие, их всегда видно из-под густой шерсти. 
+                    Качество и густота шерсти является одной из особенностей взрослой особи вида. Молодняк меньше по размеру, но также имеет густую и светлую шерсть. 
+                    Окрас серый, неравномерный. Отдельные участки темные, но основной окрас серый. Глаза средние по размеру, желтого цвета. На щеках есть характерный 
+                    удлиненный волосяной покров. Хвост массивный, густо покрыт шерстью. Кончик хвоста округлый.
+                    <Floater Width="350" HorizontalAlignment="Left">
+                        <BlockUIContainer>
+                            <Image Source="Image/3.jpg"/>
+                        </BlockUIContainer>
+                    </Floater>
+                </Paragraph>
+                  <Paragraph>
+
+                    <Italic>
+                        
+                     Краткое Описание Вида
+                    </Italic>
+              
+                  </Paragraph>
+
+                <Paragraph>
+                    
+                    Где обитает манул: лучшее место обитания для вида – местность с континентальным климатом. Низкие температуры зимой не помеха для небольших стай манула.
+                    Степи и полустепи становятся пристанищем для популяций, но они должны быть отдалены от других животных или людей. Горная местность также подходит для 
+                    постоянного проживания.
+                     </Paragraph> 
+                <Paragraph>
+
+                    <Italic>
+                        
+                    Питание и охота.  </Italic> 
+          
+                </Paragraph>
+
+                <Paragraph>
+                    
+                    Степной кот ведет оседлый образ жизни, охотятся в основном в полусумраках. Днем животное отдыхает, спит, а ночью ест.
+                    Чем питается манул: основой рациона является пищуха, грызуны вроде мышей. В редких случаях взрослая особь охотится на сусликов или птиц, 
+                    особенной зимой. Насекомые составляют рацион животного рода кошачьих в летнее время года, когда среда обитания не самая благоприятная для кота.
+                     </Paragraph>    
+         
+                <Paragraph>
+                    <Italic>
+                        
+                     Заключение </Italic>
+                    </Paragraph>
+                <Paragraph>
+                   
+                    Манул относится к хищным млекопитающим, обитающим в средней полосе России. Дикий кот встречается все реже из-за человеческого 
+                    вмешательства в природу. Приручить манула невозможно – даже котята этого вида никогда не станут ручными домашними любимцами.
+                  </Paragraph>
+                   </FlowDocument>   
+        </FlowDocumentScrollViewer>   
+      </Grid> 
+</Window>        
+                
+               
+    
+               
+               
+               
+              
+
+        
+
+
+
+                                      
+      
+   
