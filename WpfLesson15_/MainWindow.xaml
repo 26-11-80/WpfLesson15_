@@ -7,7 +7,12 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="800" Width="800">
     <Grid>
-        <FlowDocumentScrollViewer>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition Height="Auto"/>
+            
+        </Grid.RowDefinitions>
+        <FlowDocumentScrollViewer x:Name="docViewer">
          <FlowDocument>
                 <Paragraph>
                    
@@ -17,8 +22,10 @@
                             <Image Source="Image/1.jpg"/>
                         </BlockUIContainer>
                     </Floater>
-                    <Hyperlink NavigateUri="https://redbookrf.ru/manul-felis-manul"> Красная книга России</Hyperlink>
-
+                    <Hyperlink NavigateUri="https://redbookrf.ru/manul-felis-manul">
+                        <Run Foreground="Red">Красная книга России</Run> 
+                    </Hyperlink>
+                     
                 </Paragraph>
             <Paragraph>
                   
@@ -181,7 +188,15 @@
                     вмешательства в природу. Приручить манула невозможно – даже котята этого вида никогда не станут ручными домашними любимцами.
                   </Paragraph>
                    </FlowDocument>   
-        </FlowDocumentScrollViewer>   
+        </FlowDocumentScrollViewer>
+        <StackPanel Grid.Row="1" Orientation="Horizontal">
+            <Button Content="Открыть" Width="100" Click="Button_Click_2"/>
+            <Button Content="Сохранить" Width="100" Click="Button_Click_1"/>
+            <Button Content="Очистить" Width="100" Click="Button_Click"/>
+
+
+
+        </StackPanel>
       </Grid> 
 </Window>        
                 
